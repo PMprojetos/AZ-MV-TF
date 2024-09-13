@@ -1,10 +1,8 @@
 provider "azurerm" {
   features {}
 
-  subscription_id = "SEU_subscription_id"
-  # client_id       = "SEU_CLIENT_ID"
-  # client_secret   = "SEU_CLIENT_SECRET"
-  tenant_id       = "Seu_tenant_id"
+  subscription_id = "Seu_subscription_id"
+   tenant_id      = "Seu_tenant_id"
 }
 
 # Create a resource group
@@ -78,7 +76,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
 
   admin_ssh_key {
     username   = "azureuser"
-    public_key = file("~/.ssh/id_rsa.pub")
+    public_key = file("~/.ssh/id_rsa.pub") # Colocar o caminho da sua chave
   }
 
   computer_name  = "hostname"

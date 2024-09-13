@@ -1,8 +1,7 @@
 # Guia de Configuração do Terraform e NGINX na Azure 
 
-Criei este repositório com a intenção de atender o desafio do curso Microsoft Azure - Localizando Serviços por Categoria
-
-Este guia explica o processo de configuração de uma máquina virtual (MV) na Azure usando o Terraform e a instalação do NGINX.
+Criei este repositório com a intenção de atender o desafio do curso Microsoft Azure - Criando máquinas Virtuais na Azure
+Este guia explica o processo de configuração de uma máquina virtua (MV) na Azure usando o Terraform e a instalação do NGINX.
 
 # Pré-requisitos
 Antes de começar, certifique-se de ter:
